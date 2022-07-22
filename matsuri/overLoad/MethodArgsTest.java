@@ -26,8 +26,8 @@ public class MethodArgsTest {
         System.out.println(s);
     }
 
-    public void show(String... strings){
+    public void show(String... strs){
         //可变形参(参数个数>=0)
-        System.out.println(Arrays.toString(strings));
+        System.out.println(Arrays.toString(strs));
     }
 }
